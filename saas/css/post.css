@@ -1,0 +1,630 @@
+
+
+
+/********** START PUPLICATION > ICON **********/
+/*----- Start Style Content List > Publication > Icon -----*/
+.icon,
+.best-bag .icon
+{
+    width: 95%;
+    height: auto;
+    padding: 0px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom: none;
+    background-color: #fff;
+    direction: rtl;
+    display: block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.icon .up-icon,
+.icon .down-icon,
+.best-bag .icon .up-icon,
+.best-bag .icon .down-icon 
+{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: auto;
+    direction: rtl;
+    opacity: 1;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+
+.icon .up-icon .tooltip,
+.best-bag .icon .up-icon .tooltip
+{
+    width: 24%;
+    height: auto;
+    padding: 5px 0px;
+    margin-left: 0px;
+    direction: rtl;
+    opacity: 1;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+
+.icon .up-icon .tooltip p,
+.best-bag .icon .up-icon .tooltip p
+{
+    width: auto;
+    padding: 2px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: ui-monospace;
+    color: #7154f3;
+    direction: rtl;
+    display: inline-block;   
+}
+
+.icon .up-icon .tooltip .bi,
+.best-bag .icon .up-icon .tooltip .bi
+{
+    width: 25px;
+    height: 100%;
+    padding: 5px;
+    margin: auto;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    color: #7154f3;
+    display: inline-block;
+}
+
+.icon .up-icon .tooltip .tooltiptext,
+.best-bag .icon .up-icon .tooltip .tooltiptext
+{
+    width: 200px;
+    height: 309px;
+    padding: 0px 2px;
+    color: #fff;
+    text-align: center;
+    direction: ltr;
+    border-radius: 5px;
+    background-color: #ddd;
+    border: 1px solid #3e3d38;
+    box-shadow: 0 6px 6px rgb(0 0 0 / 30%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    visibility: hidden;
+    overflow: auto;
+    position: absolute;
+    z-index: 5;
+    top: -310px;
+    right: 0px;
+    z-index: 10;
+}
+
+/* width */
+.icon .up-icon .tooltip .tooltiptext::-webkit-scrollbar,
+.best-bag .icon .up-icon .tooltip .tooltiptext::-webkit-scrollbar 
+{
+    width: 5px;
+}
+  
+/* Track */
+.icon .up-icon .tooltip .tooltiptext::-webkit-scrollbar-track,
+.best-bag .icon .up-icon .tooltip .tooltiptext::-webkit-scrollbar-track 
+{
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+}
+   
+/* Handle */
+.icon .up-icon .tooltip .tooltiptext::-webkit-scrollbar-thumb,
+.best-bag .icon .up-icon .tooltip .tooltiptext::-webkit-scrollbar-thumb
+{
+    background: #f1f2f3; 
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+.icon .up-icon .tooltip .tooltiptext::-webkit-scrollbar-thumb:hover,
+.best-bag .icon .up-icon .tooltip .tooltiptext::-webkit-scrollbar-thumb:hover 
+{
+    background: #fff; 
+}
+
+.icon .up-icon .finger .tooltiptext,
+.best-bag .icon .up-icon .finger .tooltiptext
+{
+    height: auto;
+    position: absolute;
+    top: -295px;
+}
+
+.icon .up-icon .finger .tooltiptext .bi-fire,
+.icon .up-icon .finger .tooltiptext .bi-star-fill,
+.icon .up-icon .finger .tooltiptext .bi-heart-fill,
+.icon .up-icon .finger .tooltiptext .bi-hand-thumbs-up-fill,
+.icon .up-icon .finger .tooltiptext .bi-hand-thumbs-down-fill,
+.icon .up-icon .finger .tooltiptext .bi-emoji-grin-fill,
+.icon .up-icon .finger .tooltiptext .bi-emoji-tear-fill,
+.icon .up-icon .finger .tooltiptext .bi-emoji-angry-fill,
+
+.best-bag .icon .up-icon .finger .tooltiptext .bi-fire,
+.best-bag .icon .up-icon .finger .tooltiptext .bi-star-fill,
+.best-bag .icon .up-icon .finger .tooltiptext .bi-heart-fill,
+.best-bag .icon .up-icon .finger .tooltiptext .bi-hand-thumbs-up-fill,
+.best-bag .icon .up-icon .finger .tooltiptext .bi-hand-thumbs-down-fill,
+.best-bag .icon .up-icon .finger .tooltiptext .bi-emoji-grin-fill,
+.best-bag .icon .up-icon .finger .tooltiptext .bi-emoji-tear-fill,
+.best-bag .icon .up-icon .finger .tooltiptext .bi-emoji-angry-fill
+{
+    width: 26px !important;
+    margin-left: 4px !important;
+    background-color: #fff;
+    border-radius: 50%;    
+}
+
+.icon .up-icon .tooltip:hover .tooltiptext,
+.best-bag .icon .up-icon .tooltip:hover .tooltiptext
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.icon .up-icon .tooltip .tooltiptext .address,
+.best-bag .icon .up-icon .tooltip .tooltiptext .address
+{
+    width: 100%;
+    height: auto;
+    padding: 5px 0px !important;
+    margin: auto;
+    margin-bottom: 3px;
+    text-align: right;
+    background-color: #fff;
+    background: rgba(0, 0, 0, 0.78);
+    box-shadow: 0 6px 6px rgb(0 0 0 / 30%);
+    border-bottom: 1.5px solid #fff;
+    direction: rtl;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.icon .up-icon .tooltip .tooltiptext .address h5,
+.best-bag .icon .up-icon .tooltip .tooltiptext .address h5
+{
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: auto;
+    font-size: 14.5px !important;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ef0 !important;
+    display: block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.icon .up-icon .tooltip .tooltiptext .address .bi,
+.best-bag .icon .up-icon .tooltip .tooltiptext .address .bi
+{
+    width: 25px;
+    padding: 0px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    color: #ef0;
+    display: block;
+    float: right;
+}
+
+.icon .up-icon .tooltip .tooltiptext span, 
+.best-bag .icon .up-icon .tooltip .tooltiptext span 
+{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: auto;
+    margin-bottom: 3px;
+    text-align: right;
+    direction: rtl;
+    display: inline-block;
+    background-color: #000;
+    background: rgba(0, 0, 0, 0.78);
+    box-shadow: 0 6px 6px rgb(0 0 0 / 30%);
+    border: none;
+    border-radius: 0px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.icon .up-icon .tooltip .tooltiptext a,
+.best-bag .icon .up-icon .tooltip .tooltiptext a
+{
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #eee;
+    text-align: justify;
+    text-decoration: none;
+    direction: rtl;
+    background-color: #000;
+    background: rgba(0, 0, 0, 0.78);
+    box-shadow: 0 6px 6px rgb(0 0 0 / 30%);
+    border: none;
+    border-radius: 0px;
+    display: inline-block;
+    overflow: auto;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.publication .icon .up-icon .tooltip .tooltiptext span .bi,
+.best-bag .icon .up-icon .tooltip .tooltiptext span .bi
+{
+    width: 29px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    display: block;
+    float: right;
+}
+
+.icon .up-icon .tooltip .tooltiptext span .fa-angle-left,
+.best-bag .icon .up-icon .tooltip .tooltiptext span .fa-angle-left
+{
+    width: 15px;
+}
+
+.icon .up-icon .tooltip .tooltiptext span p,
+.best-bag .icon .up-icon .tooltip .tooltiptext span p
+{
+    width: 57px;
+    padding: 5px;
+    margin: auto;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: ui-monospace;
+    color: #fff;
+    direction: rtl;
+    float: right;
+    display: block;
+}
+
+.icon .up-icon .tooltip .tooltiptext span h6,
+.best-bag .icon .up-icon .tooltip .tooltiptext span h6
+{
+    width: 20px;
+    margin: auto;
+    padding: 4px 0px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: ui-monospace;
+    color: #fff;
+    direction: rtl;
+    float: right;
+    display: block;
+}
+
+.icon .up-icon .tooltip .tooltiptext .total,
+.best-bag .icon .up-icon .tooltip .tooltiptext .total
+{
+    padding-top: 3px;
+    margin-bottom: 0px;
+    background-color: #000; 
+    border: none;
+    border-top: 1px solid #fff;
+}
+
+.icon .up-icon .tooltip .tooltiptext .total .bi,
+.icon .up-icon .tooltip .tooltiptext .total p,
+.best-bag .icon .up-icon .tooltip .tooltiptext .total .bi,
+.best-bag .icon .up-icon .tooltip .tooltiptext .total p
+{
+    font-size: 15px;
+    color: #ef0;
+}
+
+.icon .up-icon .tooltip .tooltiptext .total p,
+.best-bag .icon .up-icon .tooltip .tooltiptext .total p
+{
+    font-size: 14px;
+    color: #ef0;
+}
+/*********************/
+
+/*********************************/
+.icon .down-icon,
+.best-bag .icon .down-icon 
+{
+    border-bottom: none;
+}
+
+.icon .down-icon .tooltip,
+.best-bag .icon .down-icon .tooltip
+{
+    width: 24%;
+    height: 100%;
+    padding: 0px;
+    direction: rtl;
+    opacity: 1;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+}
+  
+.icon .down-icon .tooltip .tooltiptext,
+.best-bag .icon .down-icon .tooltip .tooltiptext 
+{
+    width: 542px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 9999;
+    bottom: 31px;
+    right: -144px;
+}
+
+.icon .down-icon .tooltip:hover .tooltiptext,
+.best-bag .icon .down-icon .tooltip:hover .tooltiptext 
+{
+    visibility: visible;
+}
+
+.icon .down-icon .tooltip h1,
+.best-bag .icon .down-icon .tooltip h1
+{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #7e5de1;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.icon .down-icon .tooltip .tooltiptext .bi,
+.best-bag .icon .down-icon .tooltip .tooltiptext .bi
+
+{
+    width: 45px;
+    padding: 10px;
+    margin: auto;
+    margin-left: 14px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #f1f2f3;
+    border-radius: 50px;
+    display: block;
+    float: right;
+}
+
+.icon .down-icon .tooltip .tooltiptext .bi:last-child,
+.best-bag .icon .down-icon .tooltip .tooltiptext .bi:last-child
+{
+    margin-left: 0px;
+}
+
+.icon .down-icon .tooltip .tooltiptext .fa:last-child,
+.icon .down-icon .tooltip .tooltiptext .fas:last-child,
+.best-bag .icon .down-icon .tooltip .tooltiptext .fa:last-child,
+.best-bag .icon .down-icon .tooltip .tooltiptext .fas:last-child
+{
+    margin-left: 0px;
+}
+/**************************************/
+
+.icon .down-icon .share .tooltiptext,
+.best-bag .icon .down-icon .share .tooltiptext
+{
+    width: 266px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 0;
+    bottom: 31px;
+    right: -124px;
+}
+
+.icon .down-icon .share .tooltiptext > div,
+.best-bag .icon .down-icon .share .tooltiptext > div
+{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: auto;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+}
+
+.icon .down-icon .share .tooltiptext > div:last-child,
+.best-bag .icon .down-icon .share .tooltiptext > div:last-child
+{
+    border-bottom: none;
+}
+
+.icon .down-icon .share .tooltiptext .adreess,
+.best-bag .icon .down-icon .share .tooltiptext .adreess
+{
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+    margin: auto;
+    margin-bottom: 5px;
+    display: inline-block;
+    background-color: #fafafa;
+}
+
+.icon .down-icon .share .tooltiptext .adreess h6,
+.best-bag .icon .down-icon .share .tooltiptext .adreess h6
+{
+    width: 210px;
+    margin: auto;
+    padding: 2px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: inherit;
+    color: #7154f3;
+    text-align: right;
+    direction: rtl;
+    float: right;
+    display: block;
+}
+
+.icon .down-icon .share .tooltiptext .adreess .bi,
+.best-bag .icon .down-icon .share .tooltiptext .adreess .bi
+
+{
+    width: 25px;
+    padding: 5px;
+    margin: auto;
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #7154f3;
+    display: block;
+    float: right;
+    background-color: #fafafa;
+    border-radius: 0px;
+}
+
+
+.icon .down-icon .share .tooltiptext .icon,
+.best-bag .icon .down-icon .share .tooltiptext .icon 
+{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: auto;
+    margin-bottom: 0px;
+    background-color: #fff;
+    border: none;
+    direction: rtl;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.publication .icon .down-icon .share .tooltiptext .icon .bi,
+.best-bag .icon .down-icon .share .tooltiptext .icon .bi
+
+{
+    width: 28px;
+    padding: 7px;
+    margin: auto;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: #7154f3;
+    cursor: pointer;
+    display: block;
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    top: 0px;
+    right: 8px;
+}
+
+.icon .down-icon .share .tooltiptext .icon .bi:last-child
+.best-bag .icon .down-icon .share .tooltiptext .icon .bi:last-child
+
+{
+    margin-left: 0px;
+}
+
+.icon .down-icon .share .tooltiptext .icon p,
+.icon .down-icon .share .tooltiptext .icon p
+{
+    width: 100%;
+    padding: 0px 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #5232dd;
+    text-align: right;
+    cursor: pointer;
+    direction: rtl;
+    display: block;
+    float: right;
+    border-left: 1px solid #eee;
+    position: relative;    
+}
+
+.icon .down-icon .share .tooltiptext .icon p:last-child,
+.icon .down-icon .share .tooltiptext .icon p:last-child
+{
+    border-left: none;   
+}
+
+.icon .down-icon .share .tooltiptext .icon p i
+{
+    width: 30px !important;
+    padding: 4px !important;
+    margin: auto !important;
+    margin-left: 0px !important;
+    font-size: 14px !important;
+    border-radius: 0% !important;
+    position: relative;
+    right: 0px !important;
+}
+
+/**************************************/
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn 
+{
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+  
+@keyframes fadeIn 
+{
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+/*********************************/
+
+
+
+

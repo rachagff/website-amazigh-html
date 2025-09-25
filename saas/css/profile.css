@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+
+
+.aref-ruqaa-bold {
+font-family: "Aref Ruqaa", serif;
+font-weight: 700;
+font-style: normal;
+}
+/*----- Start Style Content List > Publication > Icon -----*/
+.icon
+{
+width: 100%;
+height: auto;
+padding: 0px;
+margin: auto;
+margin-top: 10px !important;
+background-color: #fafafa;
+text-align: center;
+direction: rtl;
+display: inline-block;
+position: relative;
+top: 0px;
+right: 0px;
+}
+
+.icon .tooltip
+{
+width: 24%;
+height: 100%;
+padding: 10px;
+direction: rtl;
+opacity: 1;
+text-align: center;
+display: inline-block;
+cursor: pointer;
+position: relative;
+z-index: 0;
+top: 0px;
+left: 0px;
+}
+
+.icon .tooltip h1
+{
+width: auto;
+height: auto;
+padding: 0px;
+margin: 0px;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+color: #4531fc;
+display: inline-block;
+position: relative;
+top: 0px;
+right: 0px;
+}
+
+.icon .tooltip .tooltiptext 
+{
+width: 485px;
+padding: 12px;
+text-align: center;
+box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+background-color: #fff;
+border: 1px solid #eee;
+border-radius: 5px;
+visibility: hidden;
+position: absolute;
+z-index: 9999;
+bottom: 40px;
+right: -184px
+}
+
+.icon .tooltip:hover .tooltiptext 
+{
+visibility: visible;
+}
+
+.icon .tooltip .tooltiptext a
+{
+width: 100%;
+height: auto;
+padding: 5px;
+margin: 0px;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+color: #0d8707;
+display: inline-block;
+position: relative;
+top: 0px;
+right: 0px;
+}
+
+.icon .tooltip .tooltiptext span
+{
+width: 24.4%;
+height: auto;
+padding: 0px;
+margin: auto;
+margin-top: 10px !important;
+display: inline-block;
+}
+
+.icon .tooltip .tooltiptext span i
+{
+width: 25px;
+margin-left: 2px;
+font-size: 18px;
+color: #4531fc;
+text-align: center;
+display: block;
+float: right;
+position: relative;
+top: -1px;
+}
+
+.icon .tooltip .tooltiptext span p,
+.icon .tooltip .tooltiptext span h6
+{
+width: auto;
+height: auto;
+padding: 0px;
+margin: 0px;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+color: #4531fc;
+display: inline-block;
+position: relative;
+top: 0px;
+right: 0px;
+}
+
+/**************************************/
+
+
+/**************************************/
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn 
+{
+from {opacity: 0;} 
+to {opacity: 1;}
+}
+
+@keyframes fadeIn 
+{
+from {opacity: 0;}
+to {opacity:1 ;}
+}
+/*********************************/
+
+
+.img-video
+{
+    width: 100%;
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
+}
+
+.img-video span
+{
+    width: 110px;
+    height: 40px;
+    padding: 5px;
+    margin: auto;
+    margin-left: 0px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    float: right;
+    position: relative;
+    right: 50px;
+}
+
+.img-video span h3
+{
+    width: auto;
+    padding: 0px;
+    margin: auto;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: system-ui;
+    text-align: center;
+    color: #4531fc;
+    float: right;
+    position: relative;
+    top: -4px;
+    right: 0px;
+    margin-right: 10px;
+}
+
+.img-video span .file
+{
+    position: relative;
+    left: 15px;
+}
+
+.img-video span .bi
+{
+    font-size: 25px;
+    color: #4531fc;
+    float: right;
+    position: relative;
+    right: 0px;
+    margin-top: -10px;
+}
+
+.img-video span input
+{
+    width: 152px;
+    height: 36px;
+    padding: 9px;
+    font-size: 10px;
+    opacity: 0;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    top: -35px;
+    left: 67px;
+    
+    
+}
+
+
+
+/********************button tabs in page profile users css*******************/
+

@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+
+
+.aref-ruqaa-bold {
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.w3-content{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:980px
+}
+.w3-content span{
+    font-size: 40px;
+    font-family: Amiri, serif;
+   
+}
+.w3-content span.onecolor{
+    color: #008008;
+}
+
+.w3-content span.twocolor{
+    color: #0118D8;
+}
+.w3-content span.threecolor{
+    color: #ffc107;
+}
+.w3-section{
+    margin-top:16px!important;
+    margin-bottom:16px!important
+}
+
+.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
