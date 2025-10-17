@@ -19,7 +19,20 @@ html{
     font-style: normal;
 }
 
+.fontlogose{
+    margin-right:-20px;
+    font-size:30px;
+    color: #0118D8;
+}
 
+@media  (max-width:400px) {
+    .fontlogose{
+     
+     font-size:0px;
+     color: transparent;
+     
+}
+}
 .w3-content{
     margin-left:auto;
     margin-right:auto;
